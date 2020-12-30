@@ -5,6 +5,8 @@ A simple and affordable telepresence experimentation platform. Based on the [Esp
 
 Construction Howto in German: https://codimd.c3d2.de/c3-pr-tutorial
 
+Project overview video (also in German) [here](https://media.ccc.de/v/rc3-249627-c3_pr_how_does_it_work).
+
 
 #### AI-THINKER ESP32-CAM vs Other Modules:
 
