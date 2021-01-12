@@ -42,6 +42,7 @@ https://randomnerdtutorials.com/esp32-cam-troubleshooting-guide/
 ## Setup:
 
 * For programming you will need a suitable development environment. We had a lot of fun and 'fun' with the Arduino IDE, but PlatformIO leaves it in the dust. Just check out this repo, set your wifi credentials according to `myconfig.sample.h` and you should be good. However if want to use the Arduino IDE, rename `esp32-cam-webserver.cpp` to `esp32-cam-webserver.ino` in the `src` directory. The Arduino IDE might still work for you. For further instructions and wiring, please refer to the [original repo](https://github.com/easytarget/esp32-cam-webserver).
+* After burning the firmware to ESP32 the file `data/index.html` needs to be uploaded to the ESP32 using SPIFFS. See [here](https://randomnerdtutorials.com/esp32-web-server-spiffs-spi-flash-file-system/) how to do this.
 
 
 ## Notes: 
